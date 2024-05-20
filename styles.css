@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url('./fonts/PTSans-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "PTSans", sans-serif;
+
+}
+
+.aot {
+    background-image: url(./img/header.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+}
+
+header img {
+    height: 50px;
+}
